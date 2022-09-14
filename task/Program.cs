@@ -6,8 +6,7 @@
 
 string[] initialarray = new string[5] {"123", "yes", "hello", "world", "men"};
 string[] finalarray = new string[initialarray.Length];
-int count = 0;
-void SecondArrayWithIF(string[] initialarray, string[] finalarray)
+void ArrayFirst(string[] initialarray, string[] finalarray)
 {
     int count = 0;
     for (int i = 0; i < initialarray.Length; i++)
@@ -27,5 +26,5 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
-SecondArrayWithIF(initialarray, finalarray);
+ArrayFirst(initialarray, finalarray);
 PrintArray(finalarray);
